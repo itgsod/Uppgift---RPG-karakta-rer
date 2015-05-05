@@ -49,7 +49,7 @@ Du har fått ansvaret att skriva en del av mjukvaran för ett Rollspel.
 Dessvärre har din chef ingen koll på objektorienterad programmering (vilket hade varit en bra lösning för det här problemet).
 Han tvingar dig därför att jobba med Hashklassen.
 
-Du skall skriva tre funktioner: `create_character`, `print_format_character` & hit_character
+Du skall skriva tre funktioner: `create_character`, `describe_character` & `hit_character`
 
 `create_character` tar ett par attribut som argument, och returnerar en Hash innehållandes attributen.
 
@@ -60,7 +60,8 @@ Du skall skriva tre funktioner: `create_character`, `print_format_character` & h
 ### Exempel ###
 
 #### Ruby ####
-
+    
+    ```ruby
     thurgar = create_character(first_name: 'Thurgar', last_name: 'Baneswolfe' klass: 'Cleric' hitpoints: 109, weapon: 'Quarterstaff')
     #=> { first_name: 'Thurgar', last_name: 'Baneswolfe', klass: 'Cleric', hitpoints: 109, weapon: 'Quarterstaff' }
 
@@ -68,7 +69,7 @@ Du skall skriva tre funktioner: `create_character`, `print_format_character` & h
 
     thurgar = hit_character(character: thurgar, damage: 32)
     #=> { first_name: 'Thurgar', last_name: 'Baneswolfe', klass: 'Cleric', hitpoints: 77, weapon: 'Quarterstaff' }
-
+    ```
 ## Genomförande ##
 
 ### Versionshantering ###
