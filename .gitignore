@@ -1,0 +1,4 @@
+.idea/**
+*.pyc
+Gemfile.lock
+.DS_Store
