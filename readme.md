@@ -61,13 +61,13 @@ Du skall skriva tre funktioner: `create_character`, `print_format_character` & h
 
 #### Ruby ####
 
-    thurgar = create_character(first_name: 'Thurgar', last_name: 'Baneswolfe' class: 'Cleric' hitpoints: 109, weapon: 'Quarterstaff')
-    #=> { first_name: 'Thurgar', last_name: 'Baneswolfe', class: 'Cleric', hitpoints: 109, weapon: 'Quarterstaff' }
+    thurgar = create_character(first_name: 'Thurgar', last_name: 'Baneswolfe' klass: 'Cleric' hitpoints: 109, weapon: 'Quarterstaff')
+    #=> { first_name: 'Thurgar', last_name: 'Baneswolfe', klass: 'Cleric', hitpoints: 109, weapon: 'Quarterstaff' }
 
     describe_character(character: thurgar) #=> 'Thurgar Baneswolfe the Cleric wields a Quarterstaff\n He appears quite healthy'
 
     thurgar = hit_character(character: thurgar, damage: 32)
-    #=> { first_name: 'Thurgar', last_name: 'Baneswolfe', class: 'Cleric', hitpoints: 77, weapon: 'Quarterstaff' }
+    #=> { first_name: 'Thurgar', last_name: 'Baneswolfe', klass: 'Cleric', hitpoints: 77, weapon: 'Quarterstaff' }
 
 ## Genomförande ##
 
