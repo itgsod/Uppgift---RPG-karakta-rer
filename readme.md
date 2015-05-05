@@ -61,7 +61,7 @@ Du skall skriva tre funktioner: `create_character`, `describe_character` & `hit_
 
 #### Ruby ####
     
-    ```ruby
+```ruby
     thurgar = create_character(first_name: 'Thurgar', last_name: 'Baneswolfe' klass: 'Cleric' hitpoints: 109, weapon: 'Quarterstaff')
     #=> { first_name: 'Thurgar', last_name: 'Baneswolfe', klass: 'Cleric', hitpoints: 109, weapon: 'Quarterstaff' }
 
@@ -69,7 +69,7 @@ Du skall skriva tre funktioner: `create_character`, `describe_character` & `hit_
 
     thurgar = hit_character(character: thurgar, damage: 32)
     #=> { first_name: 'Thurgar', last_name: 'Baneswolfe', klass: 'Cleric', hitpoints: 77, weapon: 'Quarterstaff' }
-    ```
+```
 ## Genomförande ##
 
 ### Versionshantering ###
